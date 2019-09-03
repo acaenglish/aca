@@ -8,6 +8,12 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
+      <groupId>acadsoctool_aar</groupId>
+      <artifactId>extralib</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>com.android.support</groupId>
       <artifactId>multidex</artifactId>
       <version>1.0.2</version>
@@ -57,12 +63,6 @@
     <dependency>
       <groupId>acadsoctool_aar</groupId>
       <artifactId>ClassRoomSdk</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>acadsoctool_aar</groupId>
-      <artifactId>extralib</artifactId>
       <version>unspecified</version>
       <scope>compile</scope>
     </dependency>
