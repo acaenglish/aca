@@ -8,56 +8,41 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>com.android.support</groupId>
-      <artifactId>recyclerview-v7</artifactId>
-      <version>28.0.0</version>
+      <groupId>com.acadsoc</groupId>
+      <artifactId>retrofit_http</artifactId>
+      <version>RELEASE</version>
+      <type>aar</type>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <artifactId>classroomsdk-release</artifactId>
+      <groupId>com.acadsoc</groupId>
+      <artifactId>common_utiland</artifactId>
+      <version>RELEASE</version>
       <type>aar</type>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
-          <groupId>*</groupId>
+          <groupId>com.android.support</groupId>
         </exclusion>
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>cz.msebera.android</groupId>
-      <artifactId>httpclient</artifactId>
-      <version>4.4.1.2</version>
+      <groupId>pub.devrel</groupId>
+      <artifactId>easypermissions</artifactId>
+      <version>0.4.2</version>
       <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
-      <groupId>pl.droidsonroids.gif</groupId>
-      <artifactId>android-gif-drawable</artifactId>
-      <version>1.2.12</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.bumptech.glide</groupId>
-      <artifactId>glide</artifactId>
-      <version>4.9.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>skin.support</groupId>
-      <artifactId>skin-support</artifactId>
+      <groupId>org.greenrobot</groupId>
+      <artifactId>eventbus</artifactId>
       <version>3.1.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.barteksc</groupId>
-      <artifactId>pdfium-android</artifactId>
-      <version>1.9.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.support</groupId>
-      <artifactId>multidex</artifactId>
-      <version>1.0.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -65,30 +50,6 @@
       <artifactId>appcompat-v7</artifactId>
       <version>28.0.0</version>
       <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.support.constraint</groupId>
-      <artifactId>constraint-layout</artifactId>
-      <version>1.0.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.thetransactioncompany</groupId>
-      <artifactId>jsonrpc2-base</artifactId>
-      <version>1.38</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.socket</groupId>
-      <artifactId>socket.io-client</artifactId>
-      <version>1.0.0</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>json</artifactId>
-          <groupId>org.json</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
   </dependencies>
 </project>
