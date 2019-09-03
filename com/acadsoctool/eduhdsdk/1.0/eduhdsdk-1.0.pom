@@ -9,6 +9,12 @@
   <dependencies>
     <dependency>
       <groupId>com.acadsoctool</groupId>
+      <artifactId>ClassRoomSdk</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.acadsoctool</groupId>
       <artifactId>extralib</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
@@ -17,12 +23,6 @@
       <groupId>com.android.support</groupId>
       <artifactId>multidex</artifactId>
       <version>1.0.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.acadsoctool</groupId>
-      <artifactId>ClassRoomSdk</artifactId>
-      <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
