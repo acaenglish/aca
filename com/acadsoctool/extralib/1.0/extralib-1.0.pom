@@ -20,6 +20,12 @@
       <version>RELEASE</version>
       <type>aar</type>
       <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>pub.devrel</groupId>
