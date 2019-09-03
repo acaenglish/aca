@@ -8,6 +8,13 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
+      <groupId>com.aca</groupId>
+      <artifactId>base</artifactId>
+      <version>1.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>com.acadsoctool</groupId>
       <artifactId>ClassRoomSdk</artifactId>
       <version>1.0</version>
