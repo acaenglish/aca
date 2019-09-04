@@ -14,6 +14,13 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.aca</groupId>
+      <artifactId>base</artifactId>
+      <version>1.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>cz.msebera.android</groupId>
       <artifactId>httpclient</artifactId>
       <version>4.4.1.2</version>
